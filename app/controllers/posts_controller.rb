@@ -1,9 +1,9 @@
 class PostsController < ApplicationController
-    def index
+    def index # ← これはRubyのメソッド定義
         @posts = Post.all
     end
 
-    def new
+    def new # ← これも同じくメソッド
         @posts = Post.new
     end
 end
