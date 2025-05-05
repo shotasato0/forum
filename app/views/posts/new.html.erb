@@ -2,4 +2,5 @@
 
 <%= form_with model: @posts do |form| %>
 <div><%= form.label :title %> <%= form.text_field :title %></div>
+<div><%= form.label :content %> <%= form.text_area :content %></div>
 <% end %>
